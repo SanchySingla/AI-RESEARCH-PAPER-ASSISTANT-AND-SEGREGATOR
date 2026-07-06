@@ -59,4 +59,8 @@ To evolve this project into an **industry-scale solution**, the following enhanc
 - **Real-time Processing**: Optimize the search and NLP pipelines for near real-time performance to provide immediate results to users.
 
 ### **VIEW MY WORK IF RENDERING PROBLEM**
+-**cleaned_notebook.ipynb**-For viewing static outputs and code.
+
+-**semantic_research.ipynb**-For downloading and testing my work.
+
    [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/YOUR_USERNAME/YOUR_REPO_NAME/blob/main/your_notebook.ipynb)
