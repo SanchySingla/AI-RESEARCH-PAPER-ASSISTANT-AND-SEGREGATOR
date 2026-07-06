@@ -4,6 +4,13 @@ Project Overview
 
 This project aims to build an AI-powered assistant for researching and categorizing academic papers. It leverages semantic search, summarization, keyword extraction, and Named Entity Recognition (NER) to help users find relevant papers, understand their content quickly, and extract key information.
 
+Dataset
+
+ML-ArXiv Papers from Hugging Face
+~15,000 ML research papers with Title and Abstract
+
+Link: CShorten/ML-ArXiv-Papers
+
 Technologies and Packages Used
 
 Core Libraries:
@@ -35,7 +42,7 @@ langchain-core: Foundational components for Langchain.
 langchain-huggingface: Integration with Hugging Face models for Langchain pipelines.
 Utility:
 
-flashdeberta: Used as an environment variable to potentially optimize operations (though not directly imported or called as a library function).
+###flashdeberta: Used as an environment variable to potentially optimize operations (though not directly imported or called as a library function).
 Future Development Plan
 
 To evolve this project into an industry-scale solution, the following enhancements are planned:
@@ -47,12 +54,12 @@ API Design: Design and implement a clear and well-documented API for interacting
 
 2. Advanced NER Tuning and Implementation
 
-Custom NER Models: Train custom Named Entity Recognition (NER) models specifically tailored to the nuances and entities present in academic research papers (e.g., specific research methodologies, datasets, tools).
+###Custom NER Models:### Train custom Named Entity Recognition (NER) models specifically tailored to the nuances and entities present in academic research papers (e.g., specific research methodologies, datasets, tools).
 Domain-Specific Labels: Expand the set of NER labels to capture more domain-specific information crucial for academic analysis.
 Contextual NER: Implement contextual NER techniques that can better disambiguate entities based on the surrounding text in scientific abstracts.
 Integration with Knowledge Graphs: Explore integrating extracted entities into a knowledge graph to build richer relationships between papers and concepts.
 
 3. Deployment and User Interface
 
-Deployment: Use stremlit or fastapi to give UI layer
+Deployment:Use stremlit or fastapi to give UI layer
 Real-time Processing: Optimize the search and NLP pipelines for near real-time performance to provide immediate results to users.
